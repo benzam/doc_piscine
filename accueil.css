@@ -1,0 +1,114 @@
+label
+{
+	display: block;
+	float: center;
+
+}
+
+
+nav
+{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+section
+{
+    display: inline-block;    
+    vertical-align: top;
+    float: left;
+    width: 300px;
+
+}
+
+body {
+	background-image: url("back.png");
+    color: antiquewhite;
+	padding-left: 50px;
+    padding-right: 50px;
+    float: center;
+}
+
+#div_central_co{
+    float : center;
+}
+
+#div_central_co2{
+    float : center;
+}
+
+#accueil_profil{
+    color:greenyellow;
+}
+
+
+.gbutton {
+    background-color: #81FFF8;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.pbutton {
+    background-color: ghostwhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.sbutton {
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.div_page{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+#div_section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    float: center;
+    color: aqua;
+}
+
+footer{
+    background: #81FFF8;
+    color: black;
+    text-align:  center;
+    margin-top: 150px;
+}
+#forme { 
+margin:  auto;
+width:100 px; 
+height:200 px; 
+} 
